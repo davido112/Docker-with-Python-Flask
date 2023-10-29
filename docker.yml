@@ -1,0 +1,19 @@
+version: '3'
+services:
+  python_flask:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - web
+    ports:
+      - "8080:80"
+    tty: true
+    restart: unless-stopped
+
+networks:
+  web:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.44.0.0/24
