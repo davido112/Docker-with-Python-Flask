@@ -4,6 +4,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        admin_email: myemail@gmail.com
+        domain: darksubs.hu
     networks:
       - web
     ports:

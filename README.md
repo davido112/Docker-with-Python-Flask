@@ -1,2 +1,6 @@
-# Docker-with-Python-Flask
-Warning! This file is not yet finished and I do not recommend using it in a live environment!
+# Docker with Python Flask
+
+###How can i use this Dockerfile?
+
+It's very simple just download the files and run in docker.
+> docker compose -f docker.yml up -d
