@@ -5,8 +5,8 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        admin_email: myemail@gmail.com
-        domain: darksubs.hu
+        admin_email: <EMAIL-ADDRESS>
+        domain: <DOMAIN-NAME>
     networks:
       - web
     ports:
