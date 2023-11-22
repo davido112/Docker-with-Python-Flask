@@ -8,7 +8,7 @@ Python Flask is a lightweight and versatile web framework designed to make it ea
     services:
       mysql:
         image: flask:3.11.6-debian
-	     args:
+	   args:
           admin_email: <EMAIL-ADDRESS>
           domain: <DOMAIN-NAME>
         restart: unless-stopped
