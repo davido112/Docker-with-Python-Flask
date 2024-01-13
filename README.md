@@ -6,7 +6,7 @@ Python Flask is a lightweight and versatile web framework designed to make it ea
 ### Like YML file
     version: "3"
     services:
-      mysql:
+      flask:
         image: flask:3.11.6-debian
 	    args:
           admin_email: <EMAIL-ADDRESS>
