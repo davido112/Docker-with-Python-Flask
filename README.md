@@ -16,3 +16,4 @@ Python Flask is a lightweight and versatile web framework designed to make it ea
           - "8080:80"
         volumes:
           - ./path/to/my/folder:/var/www/html
+Javítandó: sudo certbot certonly --apache --agree-tos --email kovacs.david.balazs.aws@gamil.com --domain www.xycompanykdb.ddnsfree.com
